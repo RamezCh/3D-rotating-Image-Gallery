@@ -34,7 +34,7 @@ img {
         transform: perspective(1000px) rotateY(0deg);
     }
     100% {
-        transform: perspective(1000px) rotateY(360deg);;
+        transform: perspective(1000px) rotateY(360deg);
     }
 }
 
@@ -46,7 +46,7 @@ img {
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i) * 36deg)) translateZ(400px);
+    transform: rotateY(calc(var(--i) * 30deg)) translateZ(400px);
     -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(4, 4, 4, 0.267));
 }
 
@@ -61,5 +61,5 @@ img {
 }
 
 img:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
